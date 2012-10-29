@@ -7,22 +7,22 @@ Reemplaza etiquetas `<yt></yt>` con link encerrado, para posteriormente ser proc
 ## Instalación y uso
 Agregar entre las etiquetas `<head></head>` la versión de elección de Machete.js:
 
-`<script type="text/javascript" src="machete.js"></script>`
+  <script type="text/javascript" src="machete.js"></script>
 
 Y antes de cerrar las etiquetas `<body></body>`, llamar a la función:
 
-`<script>machete(640, 1);</script>`
+    <script> machete(640, 1); </script>
 
 Los videos en cuestión tendrán que ser insertados de la siguiente manera:
 
-`<yt>http://www.youtube.com/watch?v=zdW7PvGZ0uM</yt>`
+    <yt>http://www.youtube.com/watch?v=zdW7PvGZ0uM</yt>
 
 Revisa el archivo `demo.html` para más información.
 
 ## Opciones
 Machete.js tiene dos opciones en su función, la primera corresponde al ancho del video en relación de aspecto 16:9, y el segundo para la imagen a elegir como placeholder del botón play del video.
 
-`machete(ancho, placeholder);`
+    machete(ancho, placeholder);
 
 Los placeholders son fácilmente reemplazables en la carpeta `img` de acuerdo a tu gusto. El script se encargará de posicionarlo a la mitad del contenedor. 
 
